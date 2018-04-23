@@ -1,0 +1,58 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Creative Computing Final Project</title>
+
+  <!-- font for the content -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+  <!-- p5.js libraries -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.dom.min.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
+
+  <!-- clmtracker libraries -->
+  <script src="ext_js/utils.js"></script>
+  <script src="ext_js/jsfeat-min.js"></script>
+  <script src="ext_js/frontalface.js"></script>
+  <script src="ext_js/jsfeat_detect.js"></script>
+  <script src="ext_js/numeric-1.2.6.min.js"></script>
+  <script src="ext_js/mosse.js"></script>
+  <script src="ext_js/left_eye_filter.js"></script>
+  <script src="ext_js/right_eye_filter.js"></script>
+  <script src="ext_js/nose_filter.js"></script>
+  <script src="models/model_pca_20_svm.js"></script>
+  <script src="js/clm.js"></script>
+  <script src="js/svmfilter_webgl.js"></script>
+  <script src="js/svmfilter_fft.js"></script>
+  <script src="js/mossefilter.js"></script>
+  <script src="ext_js/Stats.js"></script>
+
+  <!-- accessing the clmtracker library via p5 -->
+  <script language="javascript" type="text/javascript" src="libraries/ck_p5_clmtracker.js"></script>
+
+  <!-- sketch file -->
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+  <style>
+    body{
+      font-size: 15px;
+      font-family: 'Varela Round', cursive;
+    }
+    form{
+      line-height: 1.5em;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <input type="checkbox" name="heart" id="heart">Violet Heart
+    <input type="checkbox" name="cap" id="cap">Violet Cap
+    <input type="checkbox" name="marker" id="marker">Violet Marker
+    <input type="checkbox" name="tint" id="tint">Violet Tint
+    <br>
+    Press 'S' to save your picture!
+  </form>
+</body>
+</html>

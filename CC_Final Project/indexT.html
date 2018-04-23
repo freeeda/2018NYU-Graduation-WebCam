@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <!-- font for the title -->
+		<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+		<!-- font for the content -->
+		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+    <!-- custom CSS -->
+    <style type="text/css">
+
+      body{
+        margin:0;
+        background-image: url("images/pattern.png");
+
+      }
+
+      #container {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+
+      #header{
+        background-color: rgb(102, 0, 141);
+        color: white;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+        line-height: 0em;
+        font-family: 'Cabin Sketch', cursive;
+        font-size:40px;
+
+      }
+
+
+      #footer{
+        width: 100%;
+        text-align: center;
+        background-color: rgb(102, 0, 141);
+        color:white;
+        font-family: 'Varela Round', sans-serif;
+				font-size:10px;
+				position:fixed;
+				left:0px;
+				bottom:0px;
+      }
+
+      #content{
+        margin: auto;
+        width: 70%;
+        background-color: #ebebeb;
+        position: relative;
+        top: 100px;
+        border: 4px double rgb(102, 0, 141);
+        border-radius: 15px;
+        height: 650px;
+        box-sizing: border-box;
+      }
+
+      #myCamera{
+        margin: auto;
+        width: 800px;
+        height: 600px;
+        border: none;
+
+      }
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header"><p>NYU 2018 Graduation Themed Camera</p></div>
+
+      <div id="content">
+        <iframe id="myCamera" src="final.html"></iframe>
+      </div>
+
+      <div id="footer">
+        <p>&copy; 2018 NYU Graduation Cam Made by Freda Liang</p>
+      </div>
+
+    </div><!--closing the container div-->
+
+
+  </body>
+</html>
