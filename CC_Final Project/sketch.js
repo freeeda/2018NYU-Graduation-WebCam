@@ -162,13 +162,13 @@ function keyPressed(){
 		console.log(student, greeting);
 	}
 
-	//press space bar to clear the name and greeting
-	else if (keyCode === 32){
+	//press delete to clear the name and greeting
+	else if (keyCode === 8){
 		hasName = false;
 	}
 
-	//press 'S' to save canvas
-	else if (keyCode === 83){
+	//press space to save canvas
+	else if (keyCode === 32){
 		save('me.png');
 	}
 
